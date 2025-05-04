@@ -13,10 +13,7 @@ const port = process.env.PORT || 3000;
 
 // CORS configuration
 const corsOptions = {
-	origin: "*"
-	methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-	credentials: true,
-	allowedHeaders: ["Content-Type", "Authorization"],
+	origin: "*",
 };
 
 // Middleware
